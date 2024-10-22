@@ -87,7 +87,7 @@
                 </executions>
                 <configuration>
                     <protocArtifact>com.google.protobuf:protoc:${protobuf.version}:exe:${os.detected.classifier}</protocArtifact>
-                    <protocExecutable>/opt/protobuf/bin/protoc</protocExecutable>
+                    <protocExecutable>/opt/homebrew/bin/protoc</protocExecutable>
                     <protoSourceRoot>${basedir}/src/main/proto</protoSourceRoot>
                     <outputDirectory>${basedir}/src/main/java</outputDirectory>
                     <clearOutputDirectory>false</clearOutputDirectory>
